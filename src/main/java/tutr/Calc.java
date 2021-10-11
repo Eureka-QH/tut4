@@ -20,8 +20,7 @@ public class Calc
     }
     public static int subtract(int arg2, int arg3 )
     {
-
-        return arg2+arg3;
+        return arg2-arg3;
     }
 
 }
