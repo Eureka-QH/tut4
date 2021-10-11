@@ -17,4 +17,10 @@ public class CalcTest
         Calc math=new Calc();
         assertEquals( math.add(11, 5), 16 );
     }
+    @Test
+    public void addsubtract()
+    {
+        Calc math=new Calc();
+        assertEquals( math.subtract(5, 2), 3 );
+    }
 }
